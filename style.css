@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;700&family=Poppins:wght@300;400;600;700;800&display=swap');
+
+body {
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 20);
+    background: linear-gradient(to right, #ff9933, #fff, #138808); 
+    -webkit-background-clip: text;
+    color: transparent; /* Hide the text color */
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: large; 
+    }
+}
